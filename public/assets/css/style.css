@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+	font-family: 'Press Start 2P', cursive;
+}
+
+
+#app {
+	background-color: #222;
+	height: 100vh;
+	width: 100vw;
+ }
+
+#start {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: yellowgreen;
+	text-align: center;
+	
+}
+
+h1 {
+	color: white;
+	font-size: 3em;
+}
+
+h3 {
+	padding-top: 0.5em;
+}
+
+
+.img-virus-start {
+	width: 25%;
+	max-width: 120px;
+}
+
+.player-info {
+	color: white;
+	border: 1px solid #CDD7E2;
+	border-radius: 3px;
+	margin-top: 1rem;
+	padding: 1em;
+	padding-bottom: 0;
+}
+
+#player-form {
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.hide {
+	display: none !important;
+}
+
+#game-view {
+	display: flex;
+	justify-content: space-between;
+	height: 100vh;
+}
+
+.gameboard {
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#playing-field {
+	
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 420px;
+	width: 420px;
+}
+
+#playing-field.hide {
+	display: none;
+}
+
+#virusPic.hide {
+	display: none;
+}
+
+#virusPic {
+	width: 7%;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+.game-data {
+	color: white;
+	width: 30%;
+	border-left: 1px solid #fbff00;
+}
+
+.game-data h3 {
+	color: #fbff00;
+	font-size: 0,5em;
+	text-align: left;
+	margin-bottom: 0;
+	padding: 0.5rem 0.75rem;
+}
+
+.game-data ul {
+	margin: 0;
+	padding: 0.5rem 0.75rem;
+	list-style: none;
+}
+
+.game-data ul li {
+	font-size: 0.8rem;
+}
+
+#finalMsg h3 {
+	color: red;
+	font-size: 2em;
+}
+
+#finalMsg p {
+	color: red;
+	font-size: 1.2em;
+}
+
+#finalMsg.hide {
+	display: none;
+}
+
+
+
+#finalMsg {
+	
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+
+#informtion ul {
+	margin-top: 2rem;
+}
+
+#informtion .notification {
+	color: yellow;
+	font-style: italic;
+}
+
+#timer {
+	color: orange;
+	padding: 0.5rem 0.75rem;
+}
+
+#game-over {
+	
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 420px;
+	width: 420px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#game-over h3 {
+	color: red;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#game-over p {
+	color: red;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#game-over.hide {
+	display: none;
+}
+
+

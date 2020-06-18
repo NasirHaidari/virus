@@ -1,0 +1,2 @@
+canvas = size (640, 360)
+circleX = random(0, width)

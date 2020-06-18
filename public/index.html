@@ -13,6 +13,54 @@
 </head>
 
 <body>
+	<div id="app">
+		<div id="start" class="container">
+			<h3>keep distance when you playing Crona game!</h3>
+			<img class="virusPic" src="./assets/images/2m.png">
+			<form id="player-form">
+				<div class="form-group player-alias">
+					<input type="text" id="player-alias" class="form-control form-control-lg"
+						placeholder="chose a nickname">
+				</div>
+				<button type="submit" class="btn btn-success">Play</button>
+			</form><!-- End of player-form -->
+		</div><!-- End of start container -->
+
+		<div id="game-view" class="hide">
+
+			<div class="gameboard">
+				<h3>lets kill the virus</h3>
+
+				<div id="game-over" class="hide"></div>
+				<div id="finalMsg" class="hide"></div>
+
+				<div id="playing-field">
+					<img id="virusPic" class="hide" src="./assets/images/virus2.webp">
+				</div><!-- End of playing-field -->
+
+			</div> <!-- End of gameboard -->
+
+
+			<div class="game-data">
+				<h4>Players:</h4>
+
+				<ul id="activePlayers"></ul>
+
+				<h5>Rounds played:</h5>
+
+				<ul id="rounds-played"></ul>
+				<ul id="reaction-times"></ul>
+
+				<h5>Scores:</h5>
+
+				<ul id="current-score"></ul>
+				<ul id="info"></ul>
+				<div id="timer"></div>
+			</div><!-- End of game-data -->
+		</div><!-- End of game-view -->
+
+	</div><!-- End of app -->
+
 
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
